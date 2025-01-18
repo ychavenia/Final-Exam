@@ -1,0 +1,92 @@
+div#sidenav>a {
+    display: block;
+	padding-left:30px;
+}
+  /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {max-height: 100%;}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: maroon;
+	  color: gold;
+      height: 100%;
+    }
+	
+	.nav-pills>li>a {
+    border-radius: 4px;
+    color: white;
+	}
+	
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgba(16, 13, 13, 0.39);
+}
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+footer.container-fluid,nav.container-fluid {
+    background-color:#fff;
+	color:black;
+}
+footer.container-fluid{
+	text-align:center;
+	
+}
+nav.container-fluid>div {
+    display: inline-block;
+	vertical-align:bottom;
+}	
+@media screen and (max-width: 767px) {
+	footer.container-fluid,nav.container-fluid{
+		text-align:center;
+	}
+}
+body {
+    background-image: url(../images/main-back.png);
+    position: relative;
+    margin-left:0px; 
+    margin-right: 0px;
+    width: auto;
+    background: #eee url(../images/main-back.png) repeat;
+    border-left: 1px solid #ccc;
+    z-index: 50;
+    min-height: 400px;
+}
+a.links {
+    color: #800;
+}
+.signatory-right {
+    text-align: left;
+	padding-top: 50px;
+    padding-left: 50px;
+}
+.signatory-left {
+    text-align: left;
+	padding-top: 50px;
+    padding-left: 50px;
+}
+p.upper-text {
+    padding-bottom: 20px;
+}
+.cont_edit {
+    background-color: #fff;
+    padding: 30px;
+}
+.top-ys {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
